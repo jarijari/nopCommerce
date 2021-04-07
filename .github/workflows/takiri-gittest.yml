@@ -1,4 +1,4 @@
-name: Build and deploy .NET Core application to Web App takiri-gittest
+name: Build and deploy .NET Core application to Web App takiri-gittest ZZZ
 on:
   push:
     branches:
