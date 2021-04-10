@@ -1,4 +1,4 @@
-name: Build and deploy .NET Core application to Web App takiri-gittest ZZZ
+name: Build and deploy .NET Core application to Web App takiri-gittest JJJ
 on:
   push:
     branches:
@@ -9,7 +9,7 @@ env:
   AZURE_WEBAPP_PUBLISH_PROFILE: ${{ secrets.TAKIRI_GITTEST_FFFF }}
   CONFIGURATION: Release
   DOTNET_CORE_VERSION: 5.0.x
-  WORKING_DIRECTORY: Presentation/Nop.Web
+  WORKING_DIRECTORY: Presentation/Nop.Web/Nop.Web.csproj
 jobs:
   build:
     runs-on: ubuntu-latest
