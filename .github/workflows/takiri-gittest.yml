@@ -1,4 +1,4 @@
-name: Build and deploy .NET Core application to Web App takiri-gittest JJJ
+name: Build and deploy .NET Core application to Web App takiri-gittest
 on:
   push:
     branches:
