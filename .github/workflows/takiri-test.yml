@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 name: Build and deploy .NET Core app to Linux WebApp takiri-test
 on:
   push:
