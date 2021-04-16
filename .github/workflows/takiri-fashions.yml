@@ -1,4 +1,4 @@
-name: Build and deploy .NET Core app to Linux WebApp takiri-fashions
+name: Build and deploy .NET Core app to Linux WebApp takiri-fashions x
 on:
   push:
     branches:
