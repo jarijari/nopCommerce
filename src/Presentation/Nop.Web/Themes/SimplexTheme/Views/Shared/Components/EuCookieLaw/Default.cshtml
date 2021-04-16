@@ -19,5 +19,11 @@
     });
 </script>
 <div id="eu-cookie-bar-notification" class="eu-cookie-bar-notification">
-    <div class="content text">@T("EUCookieLaw.Description2")  <a class="learn-more" href="@Url.RouteUrl("Topic", new { SeName = Html.GetTopicSeName("privacyinfo") })">@T("EUCookieLaw.LearnMore")</a> <input type="button" class="ok-button button-1 btn btn-primary" id="eu-cookie-ok" value="@T("Common.OK")" /></div>
+    <div class="content">
+        <div class="text">@T("EUCookieLaw.Description2")</div>
+        <div class="buttons-more">
+            <input type="button" class="ok-button button-1 btn btn-primary" id="eu-cookie-ok" value="@T("Common.OK")" />
+            <a class="learn-more" href="@Url.RouteUrl("Topic", new { SeName = Html.GetTopicSeName("privacyinfo") })">@T("EUCookieLaw.LearnMore")</a>
+        </div>
+    </div>
 </div>
