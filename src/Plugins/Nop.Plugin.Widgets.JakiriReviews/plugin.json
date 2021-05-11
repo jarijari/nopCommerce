@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Widgets",
+  "FriendlyName": "Jakiri Reviews",
+  "SystemName": "Widgets.JakiriReviews",
+  "Version": "0.1",
+  "SupportedVersions": [ "4.40" ],
+  "Author": "Jakiri Cloud",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Widgets.JakiriReviews.dll",
+  "Description": "This plugin displays selected product reviews in additional locations"
+}

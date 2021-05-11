@@ -2,7 +2,7 @@ name: Build and deploy .NET Core application to Web App takiri-gittest
 on:
   push:
     branches:
-    - develop
+    - new-theme-takiri
 env:
   AZURE_WEBAPP_NAME: takiri-gittest
   AZURE_WEBAPP_PACKAGE_PATH: src/Presentation/Nop.Web/published

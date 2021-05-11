@@ -44,6 +44,118 @@
 
     <!-- We copy the \Logs directory -->
     <Content Include="Logs\**" CopyToPublishDirectory="PreserveNewest" />
+    <Content Remove="Themes\TakiriSimplexTheme\Takiri-Simplex-Theme.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\css\bootstrap.min.css" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\css\bootstrap.min.rtl.css" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\css\bootstrap.theme.min.css" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\css\bootstrap.theme.min.rtl.css" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\css\font-awesome.min.css" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\css\jquery-ui-1.10.3.custom.min.css" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\css\owl.carousel.min.css" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\css\print.css" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\css\simplex.styles.css" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\css\simplex.styles.responsive.css" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\css\simplex.styles.responsive.rtl.css" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\css\simplex.styles.rtl.css" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\fonts\fontawesome-webfont.eot" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\fonts\fontawesome-webfont.svg" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\fonts\fontawesome-webfont.ttf" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\fonts\fontawesome-webfont.woff" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\fonts\fontawesome-webfont.woff2" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\fonts\FontAwesome.otf" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\fonts\glyphicons-halflings-regular.eot" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\fonts\glyphicons-halflings-regular.svg" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\fonts\glyphicons-halflings-regular.ttf" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\fonts\glyphicons-halflings-regular.woff" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\fonts\glyphicons-halflings-regular.woff2" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\active-menu-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\add-new-address-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\ajax-loader-small.gif" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\ajax_loader_large.gif" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\ajax_loader_small.gif" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\arrow-dropdown.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\arrow-up.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\bbeditor-button-bg.gif" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\bottom-box-shadow.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\cart-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\checkout-back-arrow-rtl.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\checkout-back-arrow.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\checkout-continue-arrow-rtl.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\checkout-continue-arrow.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\checkout-order-confrim.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\closelabel.gif" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\compare-product-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\delete-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\dot-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\download-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\edit-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\email-product-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\facebook-signing.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\flyout-arrow-top.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\forum-footer-bg.gif" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\ico-close-notification-bar.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\ico-delete.gif" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\ie_warning.jpg" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\inbox-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\info-arrow.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\loading.gif" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\login-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\logo.gif" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\logo.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\logout-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\next-arrow.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\nextlabel.gif" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\notification-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\pagination-next-arrow.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\pagination-next-last-arrow.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\pagination-previous-arrow.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\pagination-previous-last-arrow.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\payment-method.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\previous-arrow.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\prevlabel.gif" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\product-cart-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\product-compare-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\product-wishlist-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\register-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\remove-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\remove.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\search-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\search.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\shipping-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\shopping-cart-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\shopping-cart-update-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\star-x-active.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\star-x-inactive.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\submenu-active-icon-rtl.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\submenu-active-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\submenu-deactive-icon-rtl.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\submenu-deactive-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\submenu-list-active-icon-rtl.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\submenu-list-active-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\submenu-list-deactive-icon-rtl.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\submenu-list-deactive-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\tab-active-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\toggle-down-arrow.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\toggle-up-arrow.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\top-arrow-hover.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\top-arrow.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\user-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\wishlist-email-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\wishlist-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\wishlist-product-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\images\wishlist-white-icon.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\img\glyphicons-halflings-white.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\img\glyphicons-halflings.png" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\js\bootstrap.min.js" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\js\bootstrap.min.rtl.js" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\js\head.min.js" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\js\owl.carousel.min.js" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\js\respond.min.js" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\js\selectivizr-min.js" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\js\simplex.js" />
+    <None Remove="Themes\TakiriSimplexTheme\Content\js\simplex.rtl.js" />
+    <None Remove="Themes\TakiriSimplexTheme\License.txt" />
+    <None Remove="Themes\TakiriSimplexTheme\Release note.txt" />
 
     <None Update="Areas\Admin\sitemap.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -61,6 +173,10 @@
 
   <ItemGroup>
     <Folder Include="Plugins\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
   </ItemGroup>
 
   <!-- This target execute after "Build" target.
@@ -117,6 +233,8 @@
       
       More details here: https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals#concurrent-garbage-collection-->
     <ConcurrentGarbageCollection>false</ConcurrentGarbageCollection>
+    <UserSecretsId>cadc1545-ae89-4dc9-abcf-5985b18ff74e</UserSecretsId>
+    <ApplicationInsightsResourceId>/subscriptions/5ad42be8-6b32-4154-af7c-5650ecdefc76/resourceGroups/takiri-test-rg/providers/microsoft.insights/components/takiri-noptest-appinsights</ApplicationInsightsResourceId>
   </PropertyGroup>
 
 </Project>
